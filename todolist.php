@@ -2,6 +2,7 @@
 session_start();
 require("dbconnect.php");
 //未完成的status = 0
+//1105軟工
 if (isset($_GET['m'])) {
   $text = $_GET['m'];
   $msg = "<font color = 'red' font size = 30px>$text</font>";
